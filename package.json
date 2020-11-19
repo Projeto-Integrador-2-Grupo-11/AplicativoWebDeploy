@@ -1,0 +1,63 @@
+{
+  "name": "The-Pilgrim",
+  "version": "1.0.0",
+  "description": "Nuxt version of the Vue Argon Dashboard Pro",
+  "author": "Creative Tim",
+  "private": true,
+  "engines": {
+    "node": "10.17.0",
+    "yarn": "1.22.5"
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@fullcalendar/core": "~4.2.0",
+    "@fullcalendar/daygrid": "~4.1.0",
+    "@fullcalendar/interaction": "~4.1.0",
+    "@fullcalendar/timegrid": "~4.1.0",
+    "@fullcalendar/vue": "~4.2.2",
+    "@nuxtjs/axios": "~5.3.6",
+    "@nuxtjs/pwa": "~3.0.0-beta.16",
+    "bootstrap": "~4.3.1",
+    "bootstrap-vue": "~2.1.0",
+    "chart.js": "~2.8.0",
+    "cookie-universal-nuxt": "~2.0.18",
+    "d3": "~5.9.2",
+    "datamaps": "~0.5.9",
+    "date-fns": "~1.30.1",
+    "dotenv": "^8.2.0",
+    "dropzone": "~5.5.1",
+    "element-ui": "~2.10.1",
+    "es6-promise": "~4.2.6",
+    "firebase": "~5.11.1",
+    "flatpickr": "~4.5.7",
+    "fuse.js": "~3.4.5",
+    "google-maps": "~3.3.0",
+    "nouislider": "~13.1.5",
+    "nuxt": "~2.8.1",
+    "nuxt-env": "~0.1.0",
+    "perfect-scrollbar": "~1.4.0",
+    "quill": "~1.3.6",
+    "sweetalert2": "~8.11.6",
+    "vee-validate": "~2.2.8",
+    "vue": "~2.6.10",
+    "vue-chartjs": "~3.4.2",
+    "vue-clipboard2": "~0.3.0",
+    "vue-flatpickr-component": "~8.1.2",
+    "vue-lazyload": "~1.3.3",
+    "vue-the-mask": "~0.11.1",
+    "vue2-transitions": "~0.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "~7.4.5",
+    "babel-plugin-component": "~1.1.0",
+    "cross-env": "~5.2.0",
+    "node-sass": "~4.13.1",
+    "nodemon": "~1.18.9",
+    "sass-loader": "~7.1.0"
+  }
+}
