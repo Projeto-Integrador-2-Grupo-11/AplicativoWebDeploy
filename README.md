@@ -1,4 +1,4 @@
-# Módulo de Aprendizado de Máquina
+# Módulo da Aplicação Web Deploy
 Projeto Integrador 2 - Grupo 11 - 2020/1
 
 # Esteira Seletora de Laranjas
