@@ -191,7 +191,7 @@
           for(let i = 1; i < lastOfMonth.getDate(); i++){
             period.push(i);
             var firstDay = new Date(this.yearMonth, this.selectedMonth, i);
-            var lastDay = '';
+            var lastDay = new Date(this.yearMonth, this.selectedMonth, i, 23, 59, 59);
             await this.getOranges(firstDay, lastDay);
             await this.getOrangesBySize(firstDay, lastDay);
           }
@@ -253,9 +253,11 @@
               case "good_spotless": {
                 goodOranges++;
                 goodOrangesSpotless++;
+                break;
               }
               case "bad": {
                 badOranges++;
+                break;
               }
             }
           });

@@ -33,9 +33,6 @@
               <span class="h2 font-weight-bold mb-0 text-white">{{ new Intl.NumberFormat('pt-BR').format(orangesAmount) }}</span>
             </div>
           </div>
-          <p class="mt-3 mb-0 text-sm">
-            <span class="text-nowrap text-white">Equivalência em Kg</span>
-          </p>
         </StatsCard>
       </div>
       <div class="col-md-4 col-sm-12">
@@ -46,9 +43,6 @@
               <span class="h2 font-weight-bold mb-0 text-white">{{ new Intl.NumberFormat('pt-BR').format(goodOranges) }}</span>
             </div>
           </div>
-          <p class="mt-3 mb-0 text-sm">
-            <span class="text-nowrap text-white">Equivalência em Kg</span>
-          </p>
         </StatsCard>
       </div>
       <div class="col-md-4 col-sm-12">
@@ -59,9 +53,6 @@
               <span class="h2 font-weight-bold mb-0 text-white">{{ new Intl.NumberFormat('pt-BR').format(badOranges) }}</span>
             </div>
           </div>
-          <p class="mt-3 mb-0 text-sm">
-            <span class="text-nowrap text-white">Equivalência em Kg</span>
-          </p>
         </StatsCard>
       </div>
     </div>
@@ -150,10 +141,11 @@
               case "good_spotless": {
                 goodOranges++;
                 goodOrangesSpotless++;
-                console.log(goodOrangesSpotless);
+                break;
               }
               case "bad": {
                 badOranges++;
+                break;
               }
             }
           });

@@ -32,7 +32,7 @@
           </div>
           <div class="row mt-3">
             <div class="col-6">
-              <nuxt-link to="/dashboard" class="text-light"><small>Esqueceu a senha?</small></nuxt-link>
+              <!-- <nuxt-link to="/dashboard" class="text-light"><small>Esqueceu a senha?</small></nuxt-link>-->
             </div>
             <div class="col-6 text-right">
               <nuxt-link to="/register" class="text-light"><small>Criar uma nova conta</small></nuxt-link>

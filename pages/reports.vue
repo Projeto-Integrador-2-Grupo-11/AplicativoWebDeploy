@@ -111,9 +111,11 @@
               case "good_spotless": {
                 goodOranges++;
                 goodOrangesSpotless++;
+                break;
               }
               case "bad": {
                 badOranges++;
+                break;
               }
             }
           });
