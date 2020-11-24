@@ -28,10 +28,10 @@ Trace:
 
 npm manifest: 
   {
-    "name": "The-Pilgrim",
+    "name": "PI2",
     "version": "1.0.0",
-    "description": "Nuxt version of the Vue Argon Dashboard Pro",
-    "author": "Creative Tim",
+    "description": "Seletor de Frutas",
+    "author": "Projeto Integrador 2 - Grupo 11 - 2020/1",
     "private": true,
     "scripts": {
       "dev": "nuxt",

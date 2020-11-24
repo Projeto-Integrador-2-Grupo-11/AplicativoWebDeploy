@@ -55,7 +55,7 @@ export default {
   props: {
     title: {
       type: String,
-      default: 'Creative Tim',
+      default: 'PI2',
       description: 'Sidebar title'
     },
     shortTitle: {
